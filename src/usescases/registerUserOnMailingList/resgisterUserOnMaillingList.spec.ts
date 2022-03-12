@@ -11,7 +11,7 @@ describe('Register User on Mailing List', () => {
         const user = await repo.findUserByEmail(email);
 
         expect(user.name).toBe(name);
-       
+        
     });  
 
 })
