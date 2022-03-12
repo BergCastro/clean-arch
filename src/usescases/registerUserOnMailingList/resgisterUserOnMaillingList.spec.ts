@@ -12,7 +12,7 @@ describe('Register User on Mailing List', () => {
 
         expect(user.name).toBe(name);
        
-    }); 
+    });  
 
 })
 
